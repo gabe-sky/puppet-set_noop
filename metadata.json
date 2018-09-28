@@ -1,6 +1,6 @@
 {
   "name": "gabe-set_noop",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Gabe Schuyler",
   "license": "Apache-2.0",
   "summary": "Task to set 'noop' in an agent's puppet.conf, and fact to reflect the current setting.",
@@ -30,28 +30,6 @@
         "5",
         "6",
         "7"
-      ]
-    },
-    {
-      "operatingsystem": "OracleLinux",
-      "operatingsystemrelease": [
-        "5",
-        "6",
-        "7"
-      ]
-    },
-    {
-      "operatingsystem": "Scientific",
-      "operatingsystemrelease": [
-        "6",
-        "7"
-      ]
-    },
-    {
-      "operatingsystem": "SLES",
-      "operatingsystemrelease": [
-        "11 SP1",
-        "12"
       ]
     },
     {
@@ -101,5 +79,5 @@
       ]
     }
   ],
-  "pdk-version": "1.0.0"
+  "pdk-version": "0.0.0"
 }
