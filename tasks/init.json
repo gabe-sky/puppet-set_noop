@@ -1,0 +1,11 @@
+{
+  "puppet_task_version": 1,
+  "supports_noop": false,
+  "description": "Set the agent to/from noop mode in its puppet.conf.",
+  "parameters": {
+    "setting": {
+      "description": "The setting for noop.  true/false",
+      "type": "Variant[Boolean,Enum['true','false']]"
+    }
+  }
+}
