@@ -1,0 +1,105 @@
+{
+  "name": "gabe-set_noop",
+  "version": "1.0.0",
+  "author": "Gabe Schuyler",
+  "license": "Apache-2.0",
+  "summary": "Task to set 'noop' in an agent's puppet.conf, and fact to reflect the current setting.",
+  "source": "https://github.com/gabe-sky/puppet-set_noop",
+  "project_page": "https://github.com/gabe-sky/puppet-set_noop",
+  "issues_url": "https://github.com/gabe-sky/puppet-set_noop/issues",
+  "tags": ["noop","puppet.conf","redhat","debian","windows"],
+  "dependencies": [],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.7.0 < 6.0.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "OracleLinux",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Scientific",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "SLES",
+      "operatingsystemrelease": [
+        "11 SP1",
+        "12"
+      ]
+    },
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "8",
+        "9"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "14.04",
+        "16.04",
+        "18.04"
+      ]
+    },
+    {
+      "operatingsystem": "Solaris",
+      "operatingsystemrelease": [
+        "11"
+      ]
+    },
+    {
+      "operatingsystem": "AIX",
+      "operatingsystemrelease": [
+        "5.3",
+        "6.1",
+        "7.1"
+      ]
+    },
+    {
+      "operatingsystem": "Amazon",
+      "operatingsystemrelease": [
+        "2016.03",
+        "2016.09",
+        "2017.03",
+        "2017.09",
+        "2018.03"
+      ]
+    },
+    {
+      "operatingsystem": "Raspbian",
+      "operatingsystemrelease": [
+        "8",
+        "9"
+      ]
+    }
+  ],
+  "pdk-version": "1.0.0"
+}
