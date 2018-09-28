@@ -1,9 +1,9 @@
 {
   "name": "gabe-set_noop",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Gabe Schuyler",
   "license": "Apache-2.0",
-  "summary": "Task to set 'noop' in an agent's puppet.conf, and fact to reflect the current setting.",
+  "summary": "Task to manipulate the 'noop' setting in an agent's puppet.conf.",
   "source": "https://github.com/gabe-sky/puppet-set_noop",
   "project_page": "https://github.com/gabe-sky/puppet-set_noop",
   "issues_url": "https://github.com/gabe-sky/puppet-set_noop/issues",
