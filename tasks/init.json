@@ -1,7 +1,7 @@
 {
   "puppet_task_version": 1,
   "supports_noop": false,
-  "description": "Set the agent to/from noop mode in its puppet.conf.",
+  "description": "Set the 'noop' setting in an agent's puppet.conf",
   "parameters": {
     "setting": {
       "description": "The setting for noop.  true/false",
