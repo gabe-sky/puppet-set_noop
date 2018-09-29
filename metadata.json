@@ -1,6 +1,6 @@
 {
   "name": "gabe-set_noop",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "author": "Gabe Schuyler",
   "license": "Apache-2.0",
   "summary": "Task to manipulate the 'noop' setting in an agent's puppet.conf.",
@@ -79,7 +79,7 @@
       ]
     },
     {
-      "operatingsystem": "windows",
+      "operatingsystem": "Windows",
       "operatingsystemrelease": [
         "2008 R2",
         "2012 R2",
