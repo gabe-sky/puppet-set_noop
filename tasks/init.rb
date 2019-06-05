@@ -6,7 +6,7 @@ require 'puppet'
 def set(truefalse)
   cmd = ['puppet','config','set','--section','agent','noop',"#{truefalse}"]
   stdout, stderr, status = Open3.capture3(*cmd)
-  raise Puppet::Error, _("stderr: ' %{stderr}') % { stderr: stderr }") if status != 0
+  raise Puppet::Error, _("stderr: ' #{stderr}') % { stderr: stderr }") if status != 0
   { status: stdout.strip }
   result = { 'result':"Set noop = #{truefalse} in puppet.conf" }
 end
